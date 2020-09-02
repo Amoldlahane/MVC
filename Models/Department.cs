@@ -11,6 +11,7 @@ namespace _3_CRUD.Models
     {
         int Id { get; set; }
         string Location { get; set; }
+        
     }
 
     public class Department:IDepartment
