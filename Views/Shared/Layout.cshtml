@@ -1,0 +1,34 @@
+﻿@model _3_CRUD.BundleConfig
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Layout</title>
+</head>
+<body>
+
+    <div>
+        <h2> Website Header </h2>
+    </div>
+
+    <div>
+        @RenderBody()
+    </div>
+<div>
+
+    @RenderSection("Menu")
+</div>
+
+
+    <div>
+        <h2> Website Footer</h2>
+    </div>
+
+</body>
+</html>
